@@ -32,7 +32,7 @@ const CarItems = () => {
         return null
       })}
 
-      <div className="row mt-5 mb-5 d-flex justify-content-between">
+      <div className="row mt-5 mb-5 d-flex justify-content-between ">
         <div className="col-md-7 col-lg-5 col-sm-8 ">
           <h3 className='mb-4'>Cart Totals</h3>
           <div className='d-flex justify-content-between'>

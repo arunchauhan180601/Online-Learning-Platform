@@ -8,7 +8,7 @@ const Popular = () => {
   const [popularProducts, setPopularProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:4000/popularinwomen")
+    fetch("http://localhost:4000/popularinskill")
       .then((res) => res.json())
       .then((data) => setPopularProducts(data))
   }, [])
@@ -19,7 +19,7 @@ const Popular = () => {
 
         <div className="row">
           <div className="col-12">
-            <h1 className='text-center mb-1'>POPULAR IN WOMEN</h1>
+            <h1 className='text-center mb-1'>POPULAR IN SKILL</h1>
             <div className='popular_underline'></div>
           </div>
         </div>

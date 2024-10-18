@@ -14,8 +14,8 @@ const DiscriptionBox = () => {
       </div>
       <div className="row">
         <div className="col-12 border p-4">
-          <p className='discriptionPara' > A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Through an e-commerce website, a business can process orders, accept payments, manage shipping and logistics, and provide customer service.</p>
-          <p className='discriptionPara'>An eCommerce website is an online destination where buyers shop for goods and sellers offer products and services. It's the hub of information about a company and what they sell. On an eCommerce website, you'll find product listings, eCommerce blog content, company history, and contact information.</p>
+          <p className='discriptionPara' >  Our online learning app offers a flexible, user-friendly platform where learners can access a wide range of courses across different subjects. With interactive lessons, quizzes, and multimedia resources, users can engage in self-paced learning anytime, anywhere. The app is designed for learners of all levels, featuring beginner to advanced courses, along with personalized recommendations and progress tracking.</p>
+          <p className='discriptionPara'> Whether you're aiming to gain new skills, enhance your knowledge, or achieve certifications, our app provides tools and support to guide your learning journey. Enjoy expert-led content, peer interaction, and valuable resources to help you reach your educational goals.</p>
         </div>
       </div>
     </div>

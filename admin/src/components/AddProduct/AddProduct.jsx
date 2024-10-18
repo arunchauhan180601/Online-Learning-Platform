@@ -13,8 +13,10 @@ const AddProduct = () => {
   const [productDetails, setProductDetails] = useState({
     name: "",
     image: "",
-    stock: "",
-    category: "women",
+    details: "",
+    lecturer: "",
+    timePeriod: "",
+    category: "skill",
     old_price: "",
     new_price: ""
   })
@@ -60,8 +62,10 @@ const AddProduct = () => {
     setProductDetails({
       name: "",
       image: "",
-      stock: "",
-      category: "women",
+      details: "",
+      lecturer: "",
+      timePeriod: "",
+      category: "skill",
       old_price: "",
       new_price: ""
 
@@ -80,12 +84,12 @@ const AddProduct = () => {
         <div className="container addProductMain pt-3 ps-3 pe-3  pb-3">
 
           <div className="row">
-            <div className="col-12 text-center fw-bold"><h2 className="fw-bold pt-3 pb-2"> Add Product</h2></div>
+            <div className="col-12 text-center fw-bold"><h2 className="fw-bold pt-3 pb-2"> Add Courses</h2></div>
           </div>
 
           <div className="row mt-3 ">
             <div className="col-12">
-              <label htmlFor="name" >Product titel</label><br />
+              <label htmlFor="name" >Course Titel</label><br />
               <input type="text" placeholder="Type here" name="name" id="name" value={productDetails.name}
                 onChange={changeHandler}></input>
             </div>
@@ -102,20 +106,33 @@ const AddProduct = () => {
             </div>
           </div>
 
-          <div className="row mt-3">
-            <div className="col-6 col-md-6">
-              <label htmlFor="category">Product Category</label>
-              <select name="category" value={productDetails.category} onChange={changeHandler}>
-                <option value="men">Men</option>
-                <option value="women">Women</option>
-                <option value="kid">Kid</option>
-              </select>
+          <div className="row mt-3 d-flex justify-content-between">
+            <div className="col-6 textareaWidth">
+              <label htmlFor="details">Details</label><br />
+              <textarea text="text" placeholder="Type here" className="textareaWidth" name="details" value={productDetails.details} onChange={changeHandler}></textarea>
+            </div>
+            <div className="col-6">
+              <label htmlFor="timePeriod">Time Period</label>
+              <input text="text" placeholder="Type here" name="timePeriod" value={productDetails.timePeriod} onChange={changeHandler}></input>
             </div>
 
             <div className="col-6 col-md-6">
-              <label htmlFor="stock">Product Stock</label>
-              <input text="Number" placeholder="Enter Stock" name="stock" value={productDetails.stock} onChange={changeHandler}></input>
+              <label htmlFor="lecturer">Lecturer</label>
+              <input text="text" placeholder="Lecturer name" name="lecturer" value={productDetails.lecturer} onChange={changeHandler}></input>
             </div>
+          </div>
+
+          <div className="row mt-3">
+            <div className="col-6 col-md-6">
+              <label htmlFor="category">Course Category</label>
+              <select name="category" value={productDetails.category} onChange={changeHandler}>
+                <option value="skill">Skill</option>
+                <option value="knowledge">Knowledge</option>
+                <option value="creative">creative</option>
+              </select>
+            </div>
+
+
           </div>
 
           <div className="row mt-3">

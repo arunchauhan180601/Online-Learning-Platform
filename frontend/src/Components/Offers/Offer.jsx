@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Offer.css"
-import exclusiveImage from "../Assets/exclusive_image.png"
+import exclusiveImage from "../Assets/Offer-Section-img.png"
 import { Link } from 'react-router-dom'
 
 
@@ -12,7 +12,7 @@ const Offer = () => {
 
         <div className="col-md-6 col-sm-6  offer-left-side  ">
           <h1 className='offer-heading'>Exclusive <br /> Offers For You</h1>
-          <p className='offer-subheading'>ONLY ON BEST SELLERS PRODUCTS</p>
+          <p className='offer-subheading'>ONLY ON BEST SELLERS COURSES</p>
           <Link to="#"> <button type="button" className="btn  offer-btn"> Check Now </button></Link>
         </div>
 

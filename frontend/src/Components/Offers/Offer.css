@@ -5,7 +5,7 @@
 }
 
 .offer-container {
-  background-image: linear-gradient(to bottom, rgba(128, 0, 128, 0.396), white);
+  background-image: linear-gradient(to bottom, #ffff00, white);
   border-radius: 5px;
 
 }
@@ -27,13 +27,13 @@
   border-radius: 30px;
 
   margin-top: 20px;
-  background-color: rgb(128, 0, 128);
+  background-color: black;
   color: white;
 }
 
 .offer-btn:hover {
-  background-color: white;
-  color: purple;
+  background-color: black;
+  color: white;
   border: 1px solid rgba(128, 0, 128, 0.829);
 }
 

@@ -34,7 +34,7 @@
 }
 
 .navbar-email a:hover {
-  color: #8850f7c3;
+  color: red;
 }
 
 .navbar-collapse {
@@ -98,7 +98,8 @@
 }
 
 .navbar-email a:hover {
-  color: rgba(128, 0, 128, 0.913);
+  color: #ffff00;
+  ;
 }
 
 @media only screen and (max-width: 1200px) {

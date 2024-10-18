@@ -9,7 +9,9 @@
 
 .cardBorder {
   border: 1px solid grey;
+  font-weight: 600;
 }
+
 
 
 .cartBtn {
@@ -22,7 +24,8 @@
 }
 
 .bgcolorOfRow {
-  background-color: rgba(128, 128, 128, 0.564);
+  background-image: linear-gradient(to bottom, #ffff00, white);
+  ;
 }
 
 .proceedToCheckoutBtn {

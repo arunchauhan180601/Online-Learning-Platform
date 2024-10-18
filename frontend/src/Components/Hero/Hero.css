@@ -8,7 +8,7 @@
 }
 
 .Hero-main {
-  background-image: linear-gradient(to bottom, rgba(128, 0, 128, 0.813), white);
+  background-image: linear-gradient(to bottom, #ffff00, white);
 }
 
 .subHeading {
@@ -21,7 +21,7 @@
 }
 
 .herobtn {
-  background-color: purple;
+  background-color: black;
   margin-top: 20px;
 
   border-radius: 30px;
@@ -35,12 +35,12 @@
 }
 
 .herobtn:hover {
-  background-color: white;
+  background-color: black;
   margin-top: 20px;
-  border-radius: 3px solid purple;
+  border: 1px solid black;
   border-radius: 30px;
   padding: 10px 30px;
-  color: purple;
+  color: white;
 }
 
 /* Hero Right Side */

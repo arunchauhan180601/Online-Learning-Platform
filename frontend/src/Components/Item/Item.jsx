@@ -8,13 +8,13 @@ const Item = ({ item }) => {
       <div className='overflow-hidden'>
         <Link to={`/product/${item.id}`}>   <img src={item.image} onClick={window.scrollTo(0, 0)} className='img-fluid d-flex justify-content-center popular-image' /></Link>
       </div>
-      <p className='p-2 text-break'>{item.name}</p>
+      <h4 className='p-2 text-break'>{item.name}</h4>
       <div className="row ps-2">
         <div className="col-3">
-          <p>  ${item.new_price} </p>
+          <h6>  ${item.new_price} </h6>
         </div>
         <div className="col-3">
-          <p className='text-decoration-line-through'> ${item.old_price} </p>
+          <h6 className='text-decoration-line-through'> ${item.old_price} </h6>
         </div>
       </div>
     </div>
